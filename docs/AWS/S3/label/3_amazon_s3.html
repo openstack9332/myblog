@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>스토리지 관리 &#8212; openstack9332  documentation</title>
+    <title>스토리지 관리 &#8212; openstack9332 0.0.1.dev2 documentation</title>
     <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/css/basic.css" />
     <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
@@ -205,31 +205,7 @@ ga('send', 'pageview');
   <div class="section" id="id1">
 <h1>스토리지 관리<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="id2">
-<h2>2) 스토리지 관리<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
-<p>Amazon S3에는 비용 관리, 규정 요구 사항 충족, 대기 시간 단축, 규정 준수 요구 사항에 맞게 여러 개의 개별 데이터 복제본 저장을
-수행할 수 있는 스토리지 관리 기능이 포함되어 있다.</p>
-<ul>
-<li><p><strong>스토리지 수명 주기 관리</strong></p>
-<p>수명 주기 동안 객체가 비용 효율적으로 저장되도록 관리하려면 해당 Amazon S3 수명 주기를 구성한다.
-S3 수명 주기 구성은 Amazon S3가 객체 그룹에 적용하는 작업을 정의하는 일련의 규칙이다.</p>
-<p>다음과 같은 두 가지 유형의 작업이 있다.</p>
-<ul class="simple">
-<li><p>전환 작업 : 객체가 다른 Amazon S3 스토리지 클래스 사용으로 전환되는 시기를 정의한다. 예를 들어 30일이 지나면 객체를 S3 Standard-IA
-스토리지로 전환하거나 1년이 지날 경우 S3 Glacier 스토리지 클래스에 아카이브하도록 구성할 수 있다.</p></li>
-<li><p>만료 작업 : 객체가 만료되는 시기를 정의한다. Amazon S3에서 만료된 객체를 자동으로 삭제한다.</p></li>
-</ul>
-</li>
-<li><p><strong>S3 객체 잠금</strong></p>
-<p>고정된 시간 동안 또는 무기한으로 Amazon S3 객체의 삭제 또는 덮어쓰기를 방지할 수 있다.
-WORM(Write-Once-Read-Many) 스토리지가 필요한 규제 요구 사항을 충족하거나 객체 변경 및 삭제에 대한 보호 계층을 추가할 수 있다.</p>
-</li>
-<li><p><strong>S3 복제</strong></p>
-<p>대기 시간 단축, 규정 준수, 보안 및 기타 사용 사례를 위해 객체, 객체의 각 메타데이터, 객체 태그를 동일하거나 다른 AWS 리전에 있는 하나 이상의 버킷에 복제한다.</p>
-</li>
-<li><p><strong>S3 Batch Operations</strong></p>
-<p>Amazon S3 콘솔에서 단일 S3 API 요청이나 몇 번의 클릭만으로 수십억 개의 객체를 대규모로 관리할 수 있다.</p>
-</li>
-</ul>
+<h2>4) 스토리지 관리<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
@@ -246,7 +222,7 @@ WORM(Write-Once-Read-Many) 스토리지가 필요한 규제 요구 사항을 충
           
           </div>
           <div class="row docs-byline bottom">
-            <div class="docs-updated">this page last updated: 2021-11-09 12:00:27</div>
+            <div class="docs-updated">this page last updated: 2021-11-09 13:15:58</div>
           </div>
           <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-8 docs-license">
@@ -293,7 +269,7 @@ WORM(Write-Once-Read-Many) 스토리지가 필요한 규제 요구 사항을 충
   </div>
   <div class="docs-sidebar-toc">
     <div class="docs-sidebar-section" id="table-of-contents">
-      <a href="../../../index.html" class="docs-sidebar-section-title"><h4>openstack9332 </h4></a>
+      <a href="../../../index.html" class="docs-sidebar-section-title"><h4>openstack9332 0.0.1.dev2</h4></a>
       <p class="caption" role="heading"><span class="caption-text">지식 데이터베이스</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../../index.html">AWS</a><ul class="current">
@@ -310,7 +286,7 @@ WORM(Write-Once-Read-Many) 스토리지가 필요한 규제 요구 사항을 충
       <h4 class="docs-sidebar-section-title">Page Contents</h4>
       <ul>
 <li><a class="reference internal" href="#">스토리지 관리</a><ul>
-<li><a class="reference internal" href="#id2">2) 스토리지 관리</a></li>
+<li><a class="reference internal" href="#id2">4) 스토리지 관리</a></li>
 </ul>
 </li>
 </ul>
@@ -397,7 +373,7 @@ WORM(Write-Once-Read-Many) 스토리지가 필요한 규제 요구 사항을 충
 <script type="text/javascript">
     var DOCUMENTATION_OPTIONS = {
       URL_ROOT:    './',
-      VERSION:     '',
+      VERSION:     '0.0.1.dev2',
       COLLAPSE_INDEX: false,
       FILE_SUFFIX: '.html',
       LINK_SUFFIX: '.html',

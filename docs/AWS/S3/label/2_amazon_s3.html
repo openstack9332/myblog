@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>스토리지 관리 &amp;&amp; 액세스 관리 &#8212; openstack9332  documentation</title>
+    <title>스토리지 관리 &amp;&amp; 액세스 관리 &#8212; openstack9332 0.0.1.dev2 documentation</title>
     <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/css/basic.css" />
     <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
@@ -245,7 +245,13 @@ IAM을 Amazon S3와 함께 사용하여 사용자 또는 사용자 그룹이 AWS
 : IAM 기반 정책 언어를 사용하여 S3 버킷과 그 안에 있는 객체에 대한 리소스 기반 권한을 구성한다.</p></li>
 <li><p><strong>액세스 제어 목록(ACL)</strong>
 : 인증된 사용자에게 개별 버킷 및 객체에 대한 읽기 및 쓰기 권한을 부여한다. 일반적으로 ACL 대신 액세스 제어를 위해
-S3 리소스 기반 정책(버킷 정책 및 액세스 포인트 정책) 또는 IAM 정책을 사용하는 것이 좋다.</p></li>
+S3 리소스 기반 정책(버킷 정책 및 액세스 포인트 정책) 또는 IAM 정책을 사용하는 것이 좋다.</p>
+<ul>
+<li><p>객체 ACL을 사용하는 경우
+: 버킷 소유자가 소유하지 않은 객체에 대한 액세스를 관리하는 유일한 방법은 객체 ACL이다. 버킷을 소유한 AWS 계정은 다른
+AWS 계정에 객체 업로드 권한을 부여할 수 있다.</p></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -263,7 +269,7 @@ S3 리소스 기반 정책(버킷 정책 및 액세스 포인트 정책) 또는 
           
           </div>
           <div class="row docs-byline bottom">
-            <div class="docs-updated">this page last updated: 2021-11-09 12:00:27</div>
+            <div class="docs-updated">this page last updated: 2021-11-09 13:16:30</div>
           </div>
           <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-8 docs-license">
@@ -310,7 +316,7 @@ S3 리소스 기반 정책(버킷 정책 및 액세스 포인트 정책) 또는 
   </div>
   <div class="docs-sidebar-toc">
     <div class="docs-sidebar-section" id="table-of-contents">
-      <a href="../../../index.html" class="docs-sidebar-section-title"><h4>openstack9332 </h4></a>
+      <a href="../../../index.html" class="docs-sidebar-section-title"><h4>openstack9332 0.0.1.dev2</h4></a>
       <p class="caption" role="heading"><span class="caption-text">지식 데이터베이스</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../../index.html">AWS</a><ul class="current">
@@ -415,7 +421,7 @@ S3 리소스 기반 정책(버킷 정책 및 액세스 포인트 정책) 또는 
 <script type="text/javascript">
     var DOCUMENTATION_OPTIONS = {
       URL_ROOT:    './',
-      VERSION:     '',
+      VERSION:     '0.0.1.dev2',
       COLLAPSE_INDEX: false,
       FILE_SUFFIX: '.html',
       LINK_SUFFIX: '.html',

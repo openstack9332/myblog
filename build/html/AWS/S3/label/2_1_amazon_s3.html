@@ -5,32 +5,32 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amazon S3 &#8212; openstack9332 0.0.1.dev2 documentation</title>
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/css/basic.css" />
-    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/jquery.js"></script>
-    <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/doctools.js"></script>
-    <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="스토리지 클래스" href="label/1_1_amazon_s3.html" />
-    <link rel="prev" title="AWS" href="../index.html" />
+    <title>스토리지 관리 &amp;&amp; 액세스 관리 &#8212; openstack9332 0.0.1.dev2 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/basic.css" />
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="프로젝트 소개" href="../../../project/index.html" />
+    <link rel="prev" title="이미지_1" href="1_2_amazon_s3.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Bootstrap CSS -->
-<link href="../../_static/css/bootstrap.min.css" rel="stylesheet">
+<link href="../../../_static/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Fonts -->
-<link href="../../_static/css/font-awesome.min.css" rel="stylesheet">
+<link href="../../../_static/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- Custom CSS -->
-<link href="../../_static/css/combined.css" rel="stylesheet">
+<link href="../../../_static/css/combined.css" rel="stylesheet">
 
 <!-- Search CSS -->
-<link href="../../_static/css/search.css" rel="stylesheet">
+<link href="../../../_static/css/search.css" rel="stylesheet">
 
 <!-- Pygments CSS -->
-<link href="../../_static/pygments.css" rel="stylesheet">
+<link href="../../../_static/pygments.css" rel="stylesheet">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -54,7 +54,7 @@ ga('send', 'pageview');
 
   </head><body>
 
-<!-- SOURCE_FILE: AWS/S3/index.rst -->
+<!-- SOURCE_FILE: AWS/S3/label/2_1_amazon_s3.rst -->
 
  <script>
     (function (window, document) {
@@ -186,15 +186,15 @@ ga('send', 'pageview');
         <div class="col-lg-9 col-md-8 col-sm-8 col-lg-push-3 col-md-push-4 col-sm-push-4">
 <div class="row docs-title">
   <div class="col-lg-8">
-      <h1>Amazon S3</h1>
+      <h1>스토리지 관리 &amp;&amp; 액세스 관리</h1>
     
   </div>
   <div class="docs-actions">
     
-    <a href="../index.html"><i class="fa fa-angle-double-left" data-toggle="tooltip" data-placement="top" title="Previous: AWS"></i></a>
+    <a href="1_2_amazon_s3.html"><i class="fa fa-angle-double-left" data-toggle="tooltip" data-placement="top" title="Previous: 이미지_1"></i></a>
     
     
-    <a href="label/1_1_amazon_s3.html"><i class="fa fa-angle-double-right" data-toggle="tooltip" data-placement="top" title="Next: 스토리지 클래스"></i></a>
+    <a href="../../../project/index.html"><i class="fa fa-angle-double-right" data-toggle="tooltip" data-placement="top" title="Next: 프로젝트 소개"></i></a>
     
   </div>
 </div>
@@ -202,21 +202,59 @@ ga('send', 'pageview');
             <div class="col-lg-12">
               <div class="docs-body" role="main">
 
-  <div class="section" id="amazon-s3">
-<h1>Amazon S3<a class="headerlink" href="#amazon-s3" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="id1">
-<h2>개요<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
-<p>S3 ( Simple Storage Service )</p>
-<p>: 확장성, 데이터 가용성, 보안 및 성능을 갖춘 객체 스토리지 서비스</p>
-<div class="toctree-wrapper compound">
+  <div class="section" id="id1">
+<h1>스토리지 관리 &amp;&amp; 액세스 관리<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id2">
+<h2>2) 스토리지 관리<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>Amazon S3에는 비용 관리, 규정 요구 사항 충족, 대기 시간 단축, 규정 준수 요구 사항에 맞게 여러 개의 개별 데이터 복제본 저장을
+수행할 수 있는 스토리지 관리 기능이 포함되어 있다.</p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="label/1_1_amazon_s3.html">스토리지 클래스</a></li>
-<li class="toctree-l1"><a class="reference internal" href="label/1_2_amazon_s3.html">Amazon S3 Intelligent-Tiering - image</a></li>
-<li class="toctree-l1"><a class="reference internal" href="label/2_1_amazon_s3.html">스토리지 관리 &amp;&amp; 액세스 관리</a></li>
-<li class="toctree-l1"><a class="reference internal" href="label/3_1_amazon_s3.html">데이터 처리 &amp;&amp; 스토리지 로깅 및 모니터링</a></li>
-<li class="toctree-l1"><a class="reference internal" href="label/4_1_amazon_s3.html">분석 및 인사이트 &amp;&amp; 강력한 일관성</a></li>
+<li><p><strong>스토리지 수명 주기 관리</strong></p>
+<p>수명 주기 동안 객체가 비용 효율적으로 저장되도록 관리하려면 해당 Amazon S3 수명 주기를 구성한다.
+S3 수명 주기 구성은 Amazon S3가 객체 그룹에 적용하는 작업을 정의하는 일련의 규칙이다.</p>
+<p>다음과 같은 두 가지 유형의 작업이 있다.</p>
+<ul class="simple">
+<li><p>전환 작업 : 객체가 다른 Amazon S3 스토리지 클래스 사용으로 전환되는 시기를 정의한다. 예를 들어 30일이 지나면 객체를 S3 Standard-IA
+스토리지로 전환하거나 1년이 지날 경우 S3 Glacier 스토리지 클래스에 아카이브하도록 구성할 수 있다.</p></li>
+<li><p>만료 작업 : 객체가 만료되는 시기를 정의한다. Amazon S3에서 만료된 객체를 자동으로 삭제한다.</p></li>
+</ul>
+</li>
+<li><p><strong>S3 객체 잠금</strong></p>
+<p>고정된 시간 동안 또는 무기한으로 Amazon S3 객체의 삭제 또는 덮어쓰기를 방지할 수 있다.
+WORM(Write-Once-Read-Many) 스토리지가 필요한 규제 요구 사항을 충족하거나 객체 변경 및 삭제에 대한 보호 계층을 추가할 수 있다.</p>
+</li>
+<li><p><strong>S3 복제</strong></p>
+<p>대기 시간 단축, 규정 준수, 보안 및 기타 사용 사례를 위해 객체, 객체의 각 메타데이터, 객체 태그를 동일하거나 다른 AWS 리전에 있는 하나 이상의 버킷에 복제한다.</p>
+</li>
+<li><p><strong>S3 Batch Operations</strong></p>
+<p>Amazon S3 콘솔에서 단일 S3 API 요청이나 몇 번의 클릭만으로 수십억 개의 객체를 대규모로 관리할 수 있다.</p>
+</li>
 </ul>
 </div>
+<div class="section" id="id3">
+<h2>3) 액세스 관리<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>Amazon S3는 버킷 및 객체에 대한 액세스 감사 및 관리 기능을 제공한다. 기본적으로 S3 버킷 및 객체는 프라이빗이다.
+특정 사용 사례를 지원하는 세분화된 리소스 권한을 부여하거나 Amazon S3 리소스의 권한을 감사하기 위해 다음 기능을 사용할 수 있다.</p>
+<ul class="simple">
+<li><p><strong>S3 퍼블릭 액세스 차단</strong>
+: S3 버킷과 객체에 대한 퍼블릭 액세스를 차단한다. 기본적으로 퍼블릭 액세스 차단 설정은 계정 및 버킷 수준에서 켜져 있다.</p></li>
+<li><p><strong>AWS Identity and Access Management(IAM)</strong>
+: AWS 계정용 IAM 사용자를 생성하여 Amazon S3 리소스에 대한 액세스를 관리한다.
+IAM을 Amazon S3와 함께 사용하여 사용자 또는 사용자 그룹이 AWS 계정에 속한 S3 버킷에 대해 보유한 액세스 유형을 제어할 수 있다.</p></li>
+<li><p><strong>버킷 정책</strong>
+: IAM 기반 정책 언어를 사용하여 S3 버킷과 그 안에 있는 객체에 대한 리소스 기반 권한을 구성한다.</p></li>
+<li><p><strong>액세스 제어 목록(ACL)</strong>
+: 인증된 사용자에게 개별 버킷 및 객체에 대한 읽기 및 쓰기 권한을 부여한다. 일반적으로 ACL 대신 액세스 제어를 위해
+S3 리소스 기반 정책(버킷 정책 및 액세스 포인트 정책) 또는 IAM 정책을 사용하는 것이 좋다.</p>
+<ul>
+<li><p>객체 ACL을 사용하는 경우
+: 버킷 소유자가 소유하지 않은 객체에 대한 액세스를 관리하는 유일한 방법은 객체 ACL이다. 버킷을 소유한 AWS 계정은 다른
+AWS 계정에 객체 업로드 권한을 부여할 수 있다.</p></li>
+</ul>
+</li>
+<li><p><strong>Access Analyzer for S3</strong>
+: S3 버킷 액세스 정책을 평가 및 모니터링하여 정책이 S3 리소스에 대한 의도된 액세스만 제공하는지 확인한다.</p></li>
+</ul>
 </div>
 </div>
 
@@ -226,19 +264,19 @@ ga('send', 'pageview');
           </div>
           <div class="docs-actions">
           
-            <a href="../index.html"><i class="fa fa-angle-double-left" data-toggle="tooltip" data-placement="top" title="Previous: AWS"></i></a>
+            <a href="1_2_amazon_s3.html"><i class="fa fa-angle-double-left" data-toggle="tooltip" data-placement="top" title="Previous: 이미지_1"></i></a>
           
           
-            <a href="label/1_1_amazon_s3.html"><i class="fa fa-angle-double-right" data-toggle="tooltip" data-placement="top" title="Next: 스토리지 클래스"></i></a>
+            <a href="../../../project/index.html"><i class="fa fa-angle-double-right" data-toggle="tooltip" data-placement="top" title="Next: 프로젝트 소개"></i></a>
           
           </div>
           <div class="row docs-byline bottom">
-            <div class="docs-updated">this page last updated: 2021-11-09 14:43:55</div>
+            <div class="docs-updated">this page last updated: 2021-11-09 13:24:00</div>
           </div>
           <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-8 docs-license">
 <a href="https://creativecommons.org/licenses/by/3.0/">
- <img src="../../_static/images/docs/license.png" alt="Creative Commons Attribution 3.0 License"/>
+ <img src="../../../_static/images/docs/license.png" alt="Creative Commons Attribution 3.0 License"/>
 </a>
 <p>
  Except where otherwise noted, this document is licensed under
@@ -280,14 +318,14 @@ ga('send', 'pageview');
   </div>
   <div class="docs-sidebar-toc">
     <div class="docs-sidebar-section" id="table-of-contents">
-      <a href="../../index.html" class="docs-sidebar-section-title"><h4>openstack9332 0.0.1.dev2</h4></a>
+      <a href="../../../index.html" class="docs-sidebar-section-title"><h4>openstack9332 0.0.1.dev2</h4></a>
       <p class="caption" role="heading"><span class="caption-text">지식 데이터베이스</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">AWS</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Amazon S3</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">AWS</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Amazon S3</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../project/index.html">프로젝트 소개</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../project/index.html">프로젝트 소개</a></li>
 </ul>
 
     </div>
@@ -296,8 +334,9 @@ ga('send', 'pageview');
     <div class="docs-sidebar-section" id="local-table-of-contents">
       <h4 class="docs-sidebar-section-title">Page Contents</h4>
       <ul>
-<li><a class="reference internal" href="#">Amazon S3</a><ul>
-<li><a class="reference internal" href="#id1">개요</a></li>
+<li><a class="reference internal" href="#">스토리지 관리 &amp;&amp; 액세스 관리</a><ul>
+<li><a class="reference internal" href="#id2">2) 스토리지 관리</a></li>
+<li><a class="reference internal" href="#id3">3) 액세스 관리</a></li>
 </ul>
 </li>
 </ul>
@@ -365,21 +404,21 @@ ga('send', 'pageview');
   </div>
 </footer>
 <!-- jQuery -->
-<script type="text/javascript" src="../../_static/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../../../_static/js/jquery-3.2.1.min.js"></script>
 
 <!-- Bootstrap JavaScript -->
-<script type="text/javascript" src="../../_static/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../../_static/js/bootstrap.min.js"></script>
 
 <!-- The rest of the JS -->
-<script type="text/javascript" src="../../_static/js/navigation.js"></script>
+<script type="text/javascript" src="../../../_static/js/navigation.js"></script>
 
 <!-- Docs JS -->
-<script type="text/javascript" src="../../_static/js/docs.js"></script>
+<script type="text/javascript" src="../../../_static/js/docs.js"></script>
 
 <!-- standard sphinx include libraries, which allow search highlighting -->
-<script type="text/javascript" src="../../_static/underscore.js"></script>
-<script type="text/javascript" src="../../_static/doctools.js"></script>
-<script type="text/javascript" src="../../_static/searchtools.js"></script>
+<script type="text/javascript" src="../../../_static/underscore.js"></script>
+<script type="text/javascript" src="../../../_static/doctools.js"></script>
+<script type="text/javascript" src="../../../_static/searchtools.js"></script>
 
 <script type="text/javascript">
     var DOCUMENTATION_OPTIONS = {

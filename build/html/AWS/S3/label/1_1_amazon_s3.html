@@ -5,32 +5,32 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amazon S3 &#8212; openstack9332 0.0.1.dev2 documentation</title>
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/css/basic.css" />
-    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/jquery.js"></script>
-    <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/doctools.js"></script>
-    <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="스토리지 클래스" href="label/1_1_amazon_s3.html" />
-    <link rel="prev" title="AWS" href="../index.html" />
+    <title>스토리지 클래스 &#8212; openstack9332 0.0.1.dev2 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/basic.css" />
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="이미지_1" href="1_2_amazon_s3.html" />
+    <link rel="prev" title="Amazon S3" href="../index.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Bootstrap CSS -->
-<link href="../../_static/css/bootstrap.min.css" rel="stylesheet">
+<link href="../../../_static/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Fonts -->
-<link href="../../_static/css/font-awesome.min.css" rel="stylesheet">
+<link href="../../../_static/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- Custom CSS -->
-<link href="../../_static/css/combined.css" rel="stylesheet">
+<link href="../../../_static/css/combined.css" rel="stylesheet">
 
 <!-- Search CSS -->
-<link href="../../_static/css/search.css" rel="stylesheet">
+<link href="../../../_static/css/search.css" rel="stylesheet">
 
 <!-- Pygments CSS -->
-<link href="../../_static/pygments.css" rel="stylesheet">
+<link href="../../../_static/pygments.css" rel="stylesheet">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -54,7 +54,7 @@ ga('send', 'pageview');
 
   </head><body>
 
-<!-- SOURCE_FILE: AWS/S3/index.rst -->
+<!-- SOURCE_FILE: AWS/S3/label/1_1_amazon_s3.rst -->
 
  <script>
     (function (window, document) {
@@ -186,15 +186,15 @@ ga('send', 'pageview');
         <div class="col-lg-9 col-md-8 col-sm-8 col-lg-push-3 col-md-push-4 col-sm-push-4">
 <div class="row docs-title">
   <div class="col-lg-8">
-      <h1>Amazon S3</h1>
+      <h1>스토리지 클래스</h1>
     
   </div>
   <div class="docs-actions">
     
-    <a href="../index.html"><i class="fa fa-angle-double-left" data-toggle="tooltip" data-placement="top" title="Previous: AWS"></i></a>
+    <a href="../index.html"><i class="fa fa-angle-double-left" data-toggle="tooltip" data-placement="top" title="Previous: Amazon S3"></i></a>
     
     
-    <a href="label/1_1_amazon_s3.html"><i class="fa fa-angle-double-right" data-toggle="tooltip" data-placement="top" title="Next: 스토리지 클래스"></i></a>
+    <a href="1_2_amazon_s3.html"><i class="fa fa-angle-double-right" data-toggle="tooltip" data-placement="top" title="Next: 이미지_1"></i></a>
     
   </div>
 </div>
@@ -202,21 +202,63 @@ ga('send', 'pageview');
             <div class="col-lg-12">
               <div class="docs-body" role="main">
 
-  <div class="section" id="amazon-s3">
-<h1>Amazon S3<a class="headerlink" href="#amazon-s3" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="id1">
-<h2>개요<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
-<p>S3 ( Simple Storage Service )</p>
-<p>: 확장성, 데이터 가용성, 보안 및 성능을 갖춘 객체 스토리지 서비스</p>
-<div class="toctree-wrapper compound">
+  <div class="section" id="id1">
+<h1>스토리지 클래스<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id2">
+<h2>1) 스토리지 클래스<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>S3는 여러 방면의 스토리지 클래스를 제공한다. 예를 들어 자주 액세스하기 위해 미션 크리티컬한 데이터를 S3 Standard에 저장하고,
+액세스 빈도가 낮은 데이터를 S3 Standard-IA 또는 S3 One Zone-IA에 저장하여 비용을 절감할 수 있다.</p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="label/1_1_amazon_s3.html">스토리지 클래스</a></li>
-<li class="toctree-l1"><a class="reference internal" href="label/1_2_amazon_s3.html">Amazon S3 Intelligent-Tiering - image</a></li>
-<li class="toctree-l1"><a class="reference internal" href="label/2_1_amazon_s3.html">스토리지 관리 &amp;&amp; 액세스 관리</a></li>
-<li class="toctree-l1"><a class="reference internal" href="label/3_1_amazon_s3.html">데이터 처리 &amp;&amp; 스토리지 로깅 및 모니터링</a></li>
-<li class="toctree-l1"><a class="reference internal" href="label/4_1_amazon_s3.html">분석 및 인사이트 &amp;&amp; 강력한 일관성</a></li>
+<li><p><strong>범용</strong></p>
+<p>: Amazon S3 Standard(S3 Standard)</p>
+<p>자주 액세스하는 데이터를 위해 높은 내구성, 가용성 및 성능을 갖춘 객체 스토리지를 제공한다.</p>
+<p>짧은 지연 시간과 많은 처리량을 제공하므로 클라우드 애플리케이션, 동적 웹 사이트, 콘텐츠 배포, 모바일 및 게임 애플리케이션, 빅데이터 분석 등의 다양한 사용 사례에 적합하다.</p>
+</li>
+<li><p><strong>간헐적</strong></p>
+<p>: Amazon S3 Intelligent-Tiering(S3 Intelligent-Tiering)</p>
+<p>데이터 액세스 패턴 변경 시 가장 효율적인 액세스 계층으로 데이터를 자동으로 이동하여 성능에 대한 영향 또는 추가비용 없이 자동으로 스토리지 비용을 절감한다.</p>
+<p>S3 Intelligent-Tiering은 범용 액세스와 간헐적인 액세스에 최적화된 액세스 티어와 비동기 액세스용으로 설계된 2개의 아카이브 액세스 티어에 객체를 저장하는 방식으로 작동한다.</p>
+<p><strong>객체가 저장되는 곳</strong></p>
+<ul>
+<li><p>업로드 시</p>
+<p>=&gt; Frequent Access 계층에 자동 저장</p>
+</li>
+<li><p>30일간 액세스 되지 않았을 경우</p>
+<p>=&gt; Infrequent Access 계층에 자동으로 이전</p>
+</li>
+<li><p>90일 연속 액세스 되지 않았을 경우</p>
+<p>=&gt; Archive Access 계층에 자동으로 이전</p>
+</li>
+<li><p>180일 연속 액세스 되지 않았을 경우</p>
+<p>=&gt; Deep Archive Access 계층에 자동으로 이전한다.</p>
+</li>
 </ul>
-</div>
+</li>
+<li><p><strong>드문 액세스</strong></p>
+<ul>
+<li><p>: Amazon S3 Stardard-Infrequent Access(S3 Standard-IA)</p>
+<p>S3 Standard-IA는 자주 액세스하지 않지만 필요할 때 빠르게 액세스해야 하는 데이터에 적합하다. ( 밀리초 단위 액세스 성능 )</p>
+<p>S3 Standard-IA는 Standard 클래스(0.023~0.021/GB) 보다 절반가량 저렴한 스토리지 요금(0.0125/GB)으로 제공하지만
+검색 요금이 발생한다(0.01/GB).</p>
+</li>
+<li><p>: Amazon S3 One Zone - Infrequent Access(S3 One Zone-IA)</p>
+<p>최소 3개의 가용 영역의 데이터를 저장하는 다른 S3 스토리지 클래스와는 달리, 단일 AZ에 데이터를 저장하며 비용이 S3 Standard-IA보다 20% 가량 적게 든다.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>아카이빙</strong></p>
+<p>S3 Glacier 및 S3 Glacier Deep Arachive는 저비용 데이터 보관을 위해 설계된 스토리지 클래스이다.</p>
+<ul>
+<li><p>Amazon S3 Glacier(S3 Glacier)</p>
+<p>: 분 단위로 데이터의 일부를 검색해야 하는 아카이빙에 사용한다. 최소 스토리지 기간이 90일이며 그 전에 데이터를 삭제 및 덮어쓰기, 이전할 경우 90일 요금이 부과된다.
+최소 1분 ~ 5분 이내에 액세스할 수 있다.</p>
+</li>
+<li><p>Amazon S3 Glarier Deep Archive(S3 Glacier Deep Archive)</p>
+<p>: 거의 액세스할 필요가 없는 데이터를 보관할 때 사용한다. 최소 스토리지 기간은 180일이고 기본 검색 시간은 12시간이다.</p>
+</li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
 
@@ -226,19 +268,19 @@ ga('send', 'pageview');
           </div>
           <div class="docs-actions">
           
-            <a href="../index.html"><i class="fa fa-angle-double-left" data-toggle="tooltip" data-placement="top" title="Previous: AWS"></i></a>
+            <a href="../index.html"><i class="fa fa-angle-double-left" data-toggle="tooltip" data-placement="top" title="Previous: Amazon S3"></i></a>
           
           
-            <a href="label/1_1_amazon_s3.html"><i class="fa fa-angle-double-right" data-toggle="tooltip" data-placement="top" title="Next: 스토리지 클래스"></i></a>
+            <a href="1_2_amazon_s3.html"><i class="fa fa-angle-double-right" data-toggle="tooltip" data-placement="top" title="Next: 이미지_1"></i></a>
           
           </div>
           <div class="row docs-byline bottom">
-            <div class="docs-updated">this page last updated: 2021-11-09 14:43:55</div>
+            <div class="docs-updated">this page last updated: 2021-11-09 13:24:00</div>
           </div>
           <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-8 docs-license">
 <a href="https://creativecommons.org/licenses/by/3.0/">
- <img src="../../_static/images/docs/license.png" alt="Creative Commons Attribution 3.0 License"/>
+ <img src="../../../_static/images/docs/license.png" alt="Creative Commons Attribution 3.0 License"/>
 </a>
 <p>
  Except where otherwise noted, this document is licensed under
@@ -280,14 +322,14 @@ ga('send', 'pageview');
   </div>
   <div class="docs-sidebar-toc">
     <div class="docs-sidebar-section" id="table-of-contents">
-      <a href="../../index.html" class="docs-sidebar-section-title"><h4>openstack9332 0.0.1.dev2</h4></a>
+      <a href="../../../index.html" class="docs-sidebar-section-title"><h4>openstack9332 0.0.1.dev2</h4></a>
       <p class="caption" role="heading"><span class="caption-text">지식 데이터베이스</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">AWS</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Amazon S3</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">AWS</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Amazon S3</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../project/index.html">프로젝트 소개</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../project/index.html">프로젝트 소개</a></li>
 </ul>
 
     </div>
@@ -296,8 +338,8 @@ ga('send', 'pageview');
     <div class="docs-sidebar-section" id="local-table-of-contents">
       <h4 class="docs-sidebar-section-title">Page Contents</h4>
       <ul>
-<li><a class="reference internal" href="#">Amazon S3</a><ul>
-<li><a class="reference internal" href="#id1">개요</a></li>
+<li><a class="reference internal" href="#">스토리지 클래스</a><ul>
+<li><a class="reference internal" href="#id2">1) 스토리지 클래스</a></li>
 </ul>
 </li>
 </ul>
@@ -365,21 +407,21 @@ ga('send', 'pageview');
   </div>
 </footer>
 <!-- jQuery -->
-<script type="text/javascript" src="../../_static/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../../../_static/js/jquery-3.2.1.min.js"></script>
 
 <!-- Bootstrap JavaScript -->
-<script type="text/javascript" src="../../_static/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../../_static/js/bootstrap.min.js"></script>
 
 <!-- The rest of the JS -->
-<script type="text/javascript" src="../../_static/js/navigation.js"></script>
+<script type="text/javascript" src="../../../_static/js/navigation.js"></script>
 
 <!-- Docs JS -->
-<script type="text/javascript" src="../../_static/js/docs.js"></script>
+<script type="text/javascript" src="../../../_static/js/docs.js"></script>
 
 <!-- standard sphinx include libraries, which allow search highlighting -->
-<script type="text/javascript" src="../../_static/underscore.js"></script>
-<script type="text/javascript" src="../../_static/doctools.js"></script>
-<script type="text/javascript" src="../../_static/searchtools.js"></script>
+<script type="text/javascript" src="../../../_static/underscore.js"></script>
+<script type="text/javascript" src="../../../_static/doctools.js"></script>
+<script type="text/javascript" src="../../../_static/searchtools.js"></script>
 
 <script type="text/javascript">
     var DOCUMENTATION_OPTIONS = {

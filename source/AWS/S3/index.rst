@@ -14,6 +14,8 @@ S3 ( Simple Storage Service )
 .. toctree::
    :maxdepth: 1
 
-   label/1_amazon_s3.rst
-   label/2_amazon_s3.rst
-   label/3_amazon_s3.rst
+   label/1_1_amazon_s3.rst
+   label/1_2_amazon_s3.rst
+   label/2_1_amazon_s3.rst
+   label/3_1_amazon_s3.rst
+   label/4_1_amazon_s3.rst
